@@ -1,6 +1,7 @@
 <?php
 include "../base/chech.php"; 
 include "../base/main.php";
+include "../base/chech2.php";
 session_start();
 
 include 'db.php';

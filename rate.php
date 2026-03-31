@@ -1,6 +1,7 @@
 <?php
 session_start();
 include "db.php";
+include "../base/chech2.php";
 
 if (!isset($_SESSION['username'])) {
     die("You must be logged in to vote.");
