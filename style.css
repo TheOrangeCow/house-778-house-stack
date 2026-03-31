@@ -1,0 +1,158 @@
+.content {
+    width: 90%;
+    height: 48vh;
+    background: rgba(250,250,250,0.9);
+    border-radius: 4px;
+}
+
+.description{
+    width: 60%;
+    height: 10vh;
+    background: rgba(250,250,250,0.9);
+    border-radius: 4px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #000;
+}
+
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+p {
+    font-size: 14px;
+    color: #000000;
+    margin: 10px 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+.answer {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+}
+
+.vote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.vote-form {
+    margin: 0;
+}
+
+.vote-button {
+    width: 36px;
+    height: 36px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 5px 0;
+    font-size: 18px;
+    line-height: 18px;
+    color: #888;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.vote-button:focus {
+    outline: none;
+}
+
+.vote-button:disabled {
+    cursor: not-allowed;
+    border-color: #e1e1e1;
+    color: #e1e1e1;
+    background-color: transparent;
+}
+.vote-button:disabled {
+    cursor: not-allowed;
+    border-color: #ccc;
+    color: #888;
+    background-color: transparent;
+}
+
+.upvote-button::before {
+    content: "▲";
+}
+
+.downvote-button::before {
+    content: "▼";
+}
+
+.vote-count {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.answer-content {
+    flex-grow: 1;
+}
+
+.answer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.answer p {
+    font-size: 14px;
+    color: #000000;
+}
+
+.answer-form {
+    margin-top: 20px;
+}
+
+input[type="submit"],
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #0056b3;
+}
+
+form {
+    margin: 0;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background:transparent;
+    font-family: Arial, sans-serif;
+}
